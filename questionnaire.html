@@ -35,73 +35,83 @@
   <hr size='2.5' color='green'>
   <hr size='3' color='blue'>
   <br>
-  </body>
+</body>
 
 <!-- /////////////////////////////QUESTIONAIR/////////////////////////////// -->
 <!-- What? -->
 
-  <body>
-<h1>QUESTIONNAIRE</h1>
-<form class="" action="index.html" method="post">
-  <fieldset>
-    <legend><h4>How do you feel about my progress?</h4></legend>
-    <p>
-      <input type="radio" name="answere_1" id='A' value="Hate it">
-      <label for="answere_1">It's <u><b>TOTAL</b></u> garbage!</label>
-    </p>
-    <p>
-      <input type="radio" name="answere_2" id='B' value="Its ok">
-      <label for="answere_2">Good start, keep it up!</label>
-    </p>
-    <p>
-      <input type="radio" name="answere_3" id='C' value="Perfect">
-      <label for="answere_3">Don't change a thing!</label>
-    </p>
-  </fieldset>
-  <fieldset>
-    <legend><h4>Feel free to write a comment! (Please, attempt to be constructive)</h4></legend>
-    <p>
-      <input type="radio" name="answere_1" id='A' value="Hate it">
-      <label for="answere_1">It's <u><b>TOTAL</b></u> garbage!</label>
+<body>
+  <h1>QUESTIONNAIRE</h1>
+  <form class="" action="index.html" method="post">
+    <fieldset>
+      <legend>
+        <h4>How do you feel about my progress?</h4>
+      </legend>
+      <p>
+        <input type="radio" name="answere_1" id='A' value="Hate it">
+        <label for="answere_1">It's <u><b>TOTAL</b></u> garbage!</label>
+      </p>
+      <p>
+        <input type="radio" name="answere_2" id='B' value="Its ok">
+        <label for="answere_2">Good start, keep it up!</label>
+      </p>
+      <p>
+        <input type="radio" name="answere_3" id='C' value="Perfect">
+        <label for="answere_3">Don't change a thing!</label>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>
+        <h4>What should I work on next? (List will be updated monthly)</h4>
+      </legend>
+      <p>
+        <input type="radio" name="answere_1" id='A' value="Hate it">
+        <label for="answere_1">Refine HTML</label>
+      </p>
+      <p>
+        <input type="radio" name="answere_1" id='A' value="Hate it">
+        <label for="answere_1">Move on to CSS</label>
+      </p>
 
-  </fieldset>
-</form>
-<br>
+    </fieldset>
+  </form>
+  <br>
 
-<!-- /////////////////////////////TIME////////////////////////////////////// -->
+  <!-- /////////////////////////////TIME////////////////////////////////////// -->
+<!--Still working on adding a time stamp to form -->
+
+  <form class="" action="index.html" method="post">
+    <input type="time" name="time" value="<time>Current</time>">
+    <input type="submit" name="time" value="submit">
+  </form>
+  <br>
+
+  <!-- /////////////////////////////COMMENTS////////////////////////////////// -->
 
 
-<form class="" action="index.html" method="post">
-  <input type="time" name="time" value="<time>Current</time>">
-  <input type="submit" name="time" value="submit">
-</form>
-<br>
+  <form action="mailto:d.w.barbee@gmail.com" method="post" enctype="text/plain">
+    <fieldset>
+      <legend>Send me a personalized comment! <em>Please be civil.</em></legend>
+      <table>
+        <tr>
+          <td><label for="name">Full Name: </label></td>
+          <td><input type="text" name="yourName" value=""></td><br>
+        </tr>
+        <tr>
+          <td><label for="email">Email: </label></td>
+          <td><input type="email" name="yourEmail" value=""></td>
+        </tr>
+      </table>
 
-<!-- /////////////////////////////COMMENTS////////////////////////////////// -->
+      <h5>COMMENT MUST BE LESS THAN 200 CHARACTERS.</h5>
 
-
-<form action="mailto:d.w.barbee@gmail.com" method="post" enctype="text/plain">
-  <fieldset>
-    <legend>Send me a personalized comment! <em>Please be civil.</em></legend>
-<table>
-  <tr>
-    <td><label for="name">Full Name: </label></td>
-    <td><input type="text" name="yourName" value=""></td><br>
-  </tr>
-  <tr>
-    <td><label for="email">Email: </label></td>
-    <td><input type="email" name="yourEmail" value=""></td>
-  </tr>
-</table>
-
-    <h5>COMMENT MUST BE LESS THAN 200 CHARACTERS.</h5>
-
-    <textarea name="youComment" rows="10" cols="80"></textarea>
+      <textarea name="youComment" rows="10" cols="80"></textarea>
       <input type="submit" name="" value="submit comment">
 
-  </fieldset>
+    </fieldset>
 
-</form>
+  </form>
 
-  </body>
+</body>
+
 </html>
