@@ -1,0 +1,45 @@
+  body {
+    Background-color: #84B9EF;
+  }
+  table {
+    background-color: #FBE4C9;
+    border-radius: 1.5%;
+    border-style: groove;
+  }
+/* First HR border type (Haven't learned how to use multiple hr.name types) */
+/*  hr.new1 {
+  border-top: 8px dotted #F5F5F5;
+  border-bottom: #F05454;
+  border-left: #F05454;
+  border-right: #F05454;
+  border-spacing: 6px;
+  width: 40%;
+  } */
+/* Second HR border type */
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #FF5D5D ;
+    border-width: 10px;
+    width: 10%;
+  }
+
+  /* Header Fonts */
+  h1 {
+    color: #952E4B;
+  }
+  h2 {
+    color: #952E4B;
+  }
+  h3 {
+    color: #952E4B;
+  }
+  h4 {
+    color: #952E4B;
+  }
+  h5 {
+    color: #952E4B;
+  }
+  h6 {
+    color: #952E4B;
+  }
